@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    padding: 15px;
+}
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1 {
+    margin: 10px 0;
+}
+
+
+
+
+input:focus {
+    outline-color: blue;
+}
+
+
+button {
+    width: 90px;
+    padding: 4px;
+    background-color: orange;
+    border: 0;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+button:hover {
+    background-color: orangered;
+}
+
+
+span {
+    display: block;
+    margin: 20px;
+    text-decoration: underline;
+}
+
+
+
+.pages-button {
+    position: absolute;
+    bottom: 30px;
+    right: 40px;
+    width: 130px;
+    border: 2px solid grey;
+    padding: 12px;
+    border-radius: 12px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+.pages-button:hover {
+    background-color: grey;
+}
