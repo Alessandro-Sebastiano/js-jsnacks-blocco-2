@@ -13,7 +13,7 @@ let list = [];
 for (let i = 0; i < 4; i++) {
 
 
-    let completeName = names[Math.floor(Math.random() * 4)] + lastNames[Math.floor(Math.random() * 4)];
+    let completeName = names[Math.floor(Math.random() * names.length)] + lastNames[Math.floor(Math.random() * lastNames.length)];
     list.push(completeName);
 }
 
