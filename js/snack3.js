@@ -12,7 +12,7 @@ for (let i = 1; i <= 10; i++) {
 
 }
 
-console.log(intNumbers);
+//console.log(intNumbers);
 
 let sum = 0;
 let text = document.querySelector('span');

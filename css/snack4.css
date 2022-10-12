@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+h1 {
+    margin: 20px;
+}
+
+
+button {
+    margin: 10px 20px;
+    width: 90px;
+    padding: 4px;
+    background-color: orange;
+    border: 0;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+button:hover {
+    background-color: orangered;
+}
+
+
+.pages-button {
+    position: absolute;
+    bottom: 30px;
+    right: 40px;
+    width: 130px;
+    border: 2px solid grey;
+    padding: 12px;
+    border-radius: 12px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+.pages-button:hover {
+    background-color: grey;
+}
+
+
+.prev {
+    left: 40px;
+}
